@@ -1,0 +1,333 @@
+!<lsst.daf.base.PropertySet>
+- - isr:vignette
+  - PropertySet
+  - !<lsst.daf.base.PropertyList> []
+- - isr:masking
+  - PropertySet
+  - !<lsst.daf.base.PropertyList> []
+- - isr:assembleCcd
+  - PropertySet
+  - !<lsst.daf.base.PropertyList> []
+- - isr:overscan
+  - PropertySet
+  - !<lsst.daf.base.PropertyList> []
+- - isr:crosstalk
+  - PropertySet
+  - !<lsst.daf.base.PropertyList> []
+- - isr
+  - PropertySet
+  - !<lsst.daf.base.PropertyList>
+    - - runStartUtc
+      - String
+      - '2021-04-03T02:30:25.377925'
+      - ''
+    - - runStartCpuTime
+      - Double
+      - 8.315968622
+      - ''
+    - - runStartUserTime
+      - Double
+      - 7.05046
+      - ''
+    - - runStartSystemTime
+      - Double
+      - 1.265544
+      - ''
+    - - runStartMaxResidentSetSize
+      - LongLong
+      - 686316
+      - ''
+    - - runStartMinorPageFaults
+      - LongLong
+      - 177022
+      - ''
+    - - runStartMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - runStartBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - runStartBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - runStartVoluntaryContextSwitches
+      - LongLong
+      - 10509
+      - ''
+    - - runStartInvoluntaryContextSwitches
+      - LongLong
+      - 721
+      - ''
+    - - FIT MEDIAN 0
+      - Double
+      - 1144.3298950195312
+      - ''
+    - - FIT STDEV 0
+      - Double
+      - 0.04325863077862852
+      - ''
+    - - RESIDUAL MEDIAN 0
+      - Double
+      - -0.287109375
+      - ''
+    - - RESIDUAL STDEV 0
+      - Double
+      - 1.477195464693815
+      - ''
+    - - FIT MEDIAN 1
+      - Double
+      - 1167.6728515625
+      - ''
+    - - FIT STDEV 1
+      - Double
+      - 0.040490061272297546
+      - ''
+    - - RESIDUAL MEDIAN 1
+      - Double
+      - 0.28466796875
+      - ''
+    - - RESIDUAL STDEV 1
+      - Double
+      - 1.5779449586083925
+      - ''
+    - - FIT MEDIAN 2
+      - Double
+      - 1230.873046875
+      - ''
+    - - FIT STDEV 2
+      - Double
+      - 0.04468780995707674
+      - ''
+    - - RESIDUAL MEDIAN 2
+      - Double
+      - 0.1168212890625
+      - ''
+    - - RESIDUAL STDEV 2
+      - Double
+      - 1.5625785167498931
+      - ''
+    - - FIT MEDIAN 3
+      - Double
+      - 1093.013916015625
+      - ''
+    - - FIT STDEV 3
+      - Double
+      - 0.034471372354501095
+      - ''
+    - - RESIDUAL MEDIAN 3
+      - Double
+      - -0.013671875
+      - ''
+    - - RESIDUAL STDEV 3
+      - Double
+      - 1.5561866083406544
+      - ''
+    - - ISR VARIANCE 0 MEDIAN
+      - Double
+      - 970.6188354492188
+      - ''
+    - - ISR VARIANCE 0 STDEV
+      - Double
+      - 15.525522281876208
+      - ''
+    - - ISR VARIANCE 1 MEDIAN
+      - Double
+      - 1081.863037109375
+      - ''
+    - - ISR VARIANCE 1 STDEV
+      - Double
+      - 18.583069381954296
+      - ''
+    - - ISR VARIANCE 2 MEDIAN
+      - Double
+      - 1084.778564453125
+      - ''
+    - - ISR VARIANCE 2 STDEV
+      - Double
+      - 19.622616465979
+      - ''
+    - - ISR VARIANCE 3 MEDIAN
+      - Double
+      - 1003.2754821777344
+      - ''
+    - - ISR VARIANCE 3 STDEV
+      - Double
+      - 19.180958934172235
+      - ''
+    - - NUMNANS
+      - Int
+      - 0
+      - ''
+    - - ISR BACKGROUND 0 MEDIAN
+      - Double
+      - 3324.784423828125
+      - ''
+    - - ISR BACKGROUND 0 STDEV
+      - Double
+      - 31.58656658875561
+      - ''
+    - - ISR BACKGROUND 1 MEDIAN
+      - Double
+      - 3324.85400390625
+      - ''
+    - - ISR BACKGROUND 1 STDEV
+      - Double
+      - 32.39048486837017
+      - ''
+    - - ISR BACKGROUND 2 MEDIAN
+      - Double
+      - 3326.6533203125
+      - ''
+    - - ISR BACKGROUND 2 STDEV
+      - Double
+      - 31.755868710122133
+      - ''
+    - - ISR BACKGROUND 3 MEDIAN
+      - Double
+      - 3328.472900390625
+      - ''
+    - - ISR BACKGROUND 3 STDEV
+      - Double
+      - 30.704108482252007
+      - ''
+    - - runEndUtc
+      - String
+      - '2021-04-03T02:30:47.455644'
+      - ''
+    - - runEndCpuTime
+      - Double
+      - 30.384935774
+      - ''
+    - - runEndUserTime
+      - Double
+      - 27.658548
+      - ''
+    - - runEndSystemTime
+      - Double
+      - 2.7264049999999997
+      - ''
+    - - runEndMaxResidentSetSize
+      - LongLong
+      - 1630452
+      - ''
+    - - runEndMinorPageFaults
+      - LongLong
+      - 534123
+      - ''
+    - - runEndMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - runEndBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - runEndBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - runEndVoluntaryContextSwitches
+      - LongLong
+      - 10510
+      - ''
+    - - runEndInvoluntaryContextSwitches
+      - LongLong
+      - 767
+      - ''
+- - isr:fringe
+  - PropertySet
+  - !<lsst.daf.base.PropertyList>
+    - - runStartUtc
+      - String
+      - '2021-04-03T02:30:45.958069'
+      - ''
+    - - runStartCpuTime
+      - Double
+      - 28.88909981
+      - ''
+    - - runStartUserTime
+      - Double
+      - 26.233626
+      - ''
+    - - runStartSystemTime
+      - Double
+      - 2.655505
+      - ''
+    - - runStartMaxResidentSetSize
+      - LongLong
+      - 1630452
+      - ''
+    - - runStartMinorPageFaults
+      - LongLong
+      - 526639
+      - ''
+    - - runStartMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - runStartBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - runStartBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - runStartVoluntaryContextSwitches
+      - LongLong
+      - 10509
+      - ''
+    - - runStartInvoluntaryContextSwitches
+      - LongLong
+      - 767
+      - ''
+    - - runEndUtc
+      - String
+      - '2021-04-03T02:30:45.958608'
+      - ''
+    - - runEndCpuTime
+      - Double
+      - 28.889645819
+      - ''
+    - - runEndUserTime
+      - Double
+      - 26.233626
+      - ''
+    - - runEndSystemTime
+      - Double
+      - 2.656028
+      - ''
+    - - runEndMaxResidentSetSize
+      - LongLong
+      - 1630452
+      - ''
+    - - runEndMinorPageFaults
+      - LongLong
+      - 526754
+      - ''
+    - - runEndMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - runEndBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - runEndBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - runEndVoluntaryContextSwitches
+      - LongLong
+      - 10509
+      - ''
+    - - runEndInvoluntaryContextSwitches
+      - LongLong
+      - 767
+      - ''
+- - isr:strayLight
+  - PropertySet
+  - !<lsst.daf.base.PropertyList> []

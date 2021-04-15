@@ -1,0 +1,1570 @@
+!<lsst.daf.base.PropertySet>
+- - calibrate:photoCal:reserve
+  - PropertySet
+  - !<lsst.daf.base.PropertyList> []
+- - calibrate:photoCal:match:referenceSelection
+  - PropertySet
+  - !<lsst.daf.base.PropertyList> []
+- - calibrate:photoCal
+  - PropertySet
+  - !<lsst.daf.base.PropertyList>
+    - - runStartUtc
+      - String
+      - '2021-04-03T16:18:47.090165'
+      - ''
+    - - runStartCpuTime
+      - Double
+      - 52.490885501
+      - ''
+    - - runStartUserTime
+      - Double
+      - 51.231152
+      - ''
+    - - runStartSystemTime
+      - Double
+      - 1.259741
+      - ''
+    - - runStartMaxResidentSetSize
+      - LongLong
+      - 556800
+      - ''
+    - - runStartMinorPageFaults
+      - LongLong
+      - 220249
+      - ''
+    - - runStartMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - runStartBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - runStartBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - runStartVoluntaryContextSwitches
+      - LongLong
+      - 10379
+      - ''
+    - - runStartInvoluntaryContextSwitches
+      - LongLong
+      - 1142
+      - ''
+    - - extractMagArraysStartUtc
+      - String
+      - '2021-04-03T16:18:47.608132'
+      - ''
+    - - extractMagArraysStartCpuTime
+      - Double
+      - 53.001656998
+      - ''
+    - - extractMagArraysStartUserTime
+      - Double
+      - 51.734967
+      - ''
+    - - extractMagArraysStartSystemTime
+      - Double
+      - 1.266709
+      - ''
+    - - extractMagArraysStartMaxResidentSetSize
+      - LongLong
+      - 556800
+      - ''
+    - - extractMagArraysStartMinorPageFaults
+      - LongLong
+      - 222580
+      - ''
+    - - extractMagArraysStartMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - extractMagArraysStartBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - extractMagArraysStartBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - extractMagArraysStartVoluntaryContextSwitches
+      - LongLong
+      - 10393
+      - ''
+    - - extractMagArraysStartInvoluntaryContextSwitches
+      - LongLong
+      - 1238
+      - ''
+    - - extractMagArraysEndUtc
+      - String
+      - '2021-04-03T16:18:47.610213'
+      - ''
+    - - extractMagArraysEndCpuTime
+      - Double
+      - 53.003743182
+      - ''
+    - - extractMagArraysEndUserTime
+      - Double
+      - 51.737043
+      - ''
+    - - extractMagArraysEndSystemTime
+      - Double
+      - 1.266711
+      - ''
+    - - extractMagArraysEndMaxResidentSetSize
+      - LongLong
+      - 556800
+      - ''
+    - - extractMagArraysEndMinorPageFaults
+      - LongLong
+      - 222774
+      - ''
+    - - extractMagArraysEndMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - extractMagArraysEndBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - extractMagArraysEndBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - extractMagArraysEndVoluntaryContextSwitches
+      - LongLong
+      - 10393
+      - ''
+    - - extractMagArraysEndInvoluntaryContextSwitches
+      - LongLong
+      - 1238
+      - ''
+    - - runEndUtc
+      - String
+      - '2021-04-03T16:18:47.611870'
+      - ''
+    - - runEndCpuTime
+      - Double
+      - 53.005400354
+      - ''
+    - - runEndUserTime
+      - Double
+      - 51.737707
+      - ''
+    - - runEndSystemTime
+      - Double
+      - 1.267703
+      - ''
+    - - runEndMaxResidentSetSize
+      - LongLong
+      - 556800
+      - ''
+    - - runEndMinorPageFaults
+      - LongLong
+      - 222856
+      - ''
+    - - runEndMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - runEndBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - runEndBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - runEndVoluntaryContextSwitches
+      - LongLong
+      - 10393
+      - ''
+    - - runEndInvoluntaryContextSwitches
+      - LongLong
+      - 1238
+      - ''
+- - calibrate:astrometry:wcsFitter
+  - PropertySet
+  - !<lsst.daf.base.PropertyList>
+    - - fitWcsStartUtc
+      - String
+      - - '2021-04-03T16:18:46.400445'
+        - '2021-04-03T16:18:46.644503'
+        - '2021-04-03T16:18:46.896972'
+      - ''
+    - - fitWcsStartCpuTime
+      - Double
+      - - 51.803219073
+        - 52.045291907
+        - 52.297737359
+      - ''
+    - - fitWcsStartUserTime
+      - Double
+      - - 50.54947
+        - 50.787543
+        - 51.039988
+      - ''
+    - - fitWcsStartSystemTime
+      - Double
+      - - 1.253755
+        - 1.257756
+        - 1.257756
+      - ''
+    - - fitWcsStartMaxResidentSetSize
+      - LongLong
+      - - 556800
+        - 556800
+        - 556800
+      - ''
+    - - fitWcsStartMinorPageFaults
+      - LongLong
+      - - 219661
+        - 220136
+        - 220156
+      - ''
+    - - fitWcsStartMajorPageFaults
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - fitWcsStartBlockInputs
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - fitWcsStartBlockOutputs
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - fitWcsStartVoluntaryContextSwitches
+      - LongLong
+      - - 10378
+        - 10379
+        - 10379
+      - ''
+    - - fitWcsStartInvoluntaryContextSwitches
+      - LongLong
+      - - 1115
+        - 1140
+        - 1141
+      - ''
+    - - fitWcsEndUtc
+      - String
+      - - '2021-04-03T16:18:46.585266'
+        - '2021-04-03T16:18:46.833535'
+        - '2021-04-03T16:18:47.086000'
+      - ''
+    - - fitWcsEndCpuTime
+      - Double
+      - - 51.987905001
+        - 52.234300611
+        - 52.486717568
+      - ''
+    - - fitWcsEndUserTime
+      - Double
+      - - 50.731176
+        - 50.976565
+        - 51.228979
+      - ''
+    - - fitWcsEndSystemTime
+      - Double
+      - - 1.256747
+        - 1.257756
+        - 1.257756
+      - ''
+    - - fitWcsEndMaxResidentSetSize
+      - LongLong
+      - - 556800
+        - 556800
+        - 556800
+      - ''
+    - - fitWcsEndMinorPageFaults
+      - LongLong
+      - - 220061
+        - 220152
+        - 220160
+      - ''
+    - - fitWcsEndMajorPageFaults
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - fitWcsEndBlockInputs
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - fitWcsEndBlockOutputs
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - fitWcsEndVoluntaryContextSwitches
+      - LongLong
+      - - 10378
+        - 10379
+        - 10379
+      - ''
+    - - fitWcsEndInvoluntaryContextSwitches
+      - LongLong
+      - - 1139
+        - 1141
+        - 1142
+      - ''
+- - calibrate:astrometry:sourceSelector
+  - PropertySet
+  - !<lsst.daf.base.PropertyList> []
+- - calibrate:skySources
+  - PropertySet
+  - !<lsst.daf.base.PropertyList> []
+- - calibrate:photoCal:match:sourceSelection
+  - PropertySet
+  - !<lsst.daf.base.PropertyList> []
+- - calibrate:applyApCorr
+  - PropertySet
+  - !<lsst.daf.base.PropertyList> []
+- - calibrate:astrometry:referenceSelector
+  - PropertySet
+  - !<lsst.daf.base.PropertyList> []
+- - calibrate:deblend
+  - PropertySet
+  - !<lsst.daf.base.PropertyList>
+    - - runStartUtc
+      - String
+      - '2021-04-03T16:18:02.451202'
+      - ''
+    - - runStartCpuTime
+      - Double
+      - 7.912512377
+      - ''
+    - - runStartUserTime
+      - Double
+      - 6.820349
+      - ''
+    - - runStartSystemTime
+      - Double
+      - 1.09218
+      - ''
+    - - runStartMaxResidentSetSize
+      - LongLong
+      - 556800
+      - ''
+    - - runStartMinorPageFaults
+      - LongLong
+      - 138991
+      - ''
+    - - runStartMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - runStartBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - runStartBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - runStartVoluntaryContextSwitches
+      - LongLong
+      - 10364
+      - ''
+    - - runStartInvoluntaryContextSwitches
+      - LongLong
+      - 64
+      - ''
+    - - deblendStartUtc
+      - String
+      - '2021-04-03T16:18:02.451488'
+      - ''
+    - - deblendStartCpuTime
+      - Double
+      - 7.91280049
+      - ''
+    - - deblendStartUserTime
+      - Double
+      - 6.820597
+      - ''
+    - - deblendStartSystemTime
+      - Double
+      - 1.09222
+      - ''
+    - - deblendStartMaxResidentSetSize
+      - LongLong
+      - 556800
+      - ''
+    - - deblendStartMinorPageFaults
+      - LongLong
+      - 139025
+      - ''
+    - - deblendStartMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - deblendStartBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - deblendStartBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - deblendStartVoluntaryContextSwitches
+      - LongLong
+      - 10364
+      - ''
+    - - deblendStartInvoluntaryContextSwitches
+      - LongLong
+      - 64
+      - ''
+    - - deblendEndUtc
+      - String
+      - '2021-04-03T16:18:05.684492'
+      - ''
+    - - deblendEndCpuTime
+      - Double
+      - 11.145466856
+      - ''
+    - - deblendEndUserTime
+      - Double
+      - 10.033773
+      - ''
+    - - deblendEndSystemTime
+      - Double
+      - 1.111742
+      - ''
+    - - deblendEndMaxResidentSetSize
+      - LongLong
+      - 556800
+      - ''
+    - - deblendEndMinorPageFaults
+      - LongLong
+      - 148339
+      - ''
+    - - deblendEndMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - deblendEndBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - deblendEndBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - deblendEndVoluntaryContextSwitches
+      - LongLong
+      - 10364
+      - ''
+    - - deblendEndInvoluntaryContextSwitches
+      - LongLong
+      - 73
+      - ''
+    - - runEndUtc
+      - String
+      - '2021-04-03T16:18:05.684856'
+      - ''
+    - - runEndCpuTime
+      - Double
+      - 11.145838342
+      - ''
+    - - runEndUserTime
+      - Double
+      - 10.033773
+      - ''
+    - - runEndSystemTime
+      - Double
+      - 1.112073
+      - ''
+    - - runEndMaxResidentSetSize
+      - LongLong
+      - 556800
+      - ''
+    - - runEndMinorPageFaults
+      - LongLong
+      - 148376
+      - ''
+    - - runEndMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - runEndBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - runEndBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - runEndVoluntaryContextSwitches
+      - LongLong
+      - 10364
+      - ''
+    - - runEndInvoluntaryContextSwitches
+      - LongLong
+      - 73
+      - ''
+- - calibrate:detection:background
+  - PropertySet
+  - !<lsst.daf.base.PropertyList> []
+- - calibrate:measurement
+  - PropertySet
+  - !<lsst.daf.base.PropertyList>
+    - - runStartUtc
+      - String
+      - '2021-04-03T16:18:05.685047'
+      - ''
+    - - runStartCpuTime
+      - Double
+      - 11.146029494
+      - ''
+    - - runStartUserTime
+      - Double
+      - 10.033773
+      - ''
+    - - runStartSystemTime
+      - Double
+      - 1.112264
+      - ''
+    - - runStartMaxResidentSetSize
+      - LongLong
+      - 556800
+      - ''
+    - - runStartMinorPageFaults
+      - LongLong
+      - 148394
+      - ''
+    - - runStartMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - runStartBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - runStartBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - runStartVoluntaryContextSwitches
+      - LongLong
+      - 10364
+      - ''
+    - - runStartInvoluntaryContextSwitches
+      - LongLong
+      - 73
+      - ''
+    - - runEndUtc
+      - String
+      - '2021-04-03T16:18:43.504158'
+      - ''
+    - - runEndCpuTime
+      - Double
+      - 48.960480434
+      - ''
+    - - runEndUserTime
+      - Double
+      - 47.740679
+      - ''
+    - - runEndSystemTime
+      - Double
+      - 1.219835
+      - ''
+    - - runEndMaxResidentSetSize
+      - LongLong
+      - 556800
+      - ''
+    - - runEndMinorPageFaults
+      - LongLong
+      - 210357
+      - ''
+    - - runEndMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - runEndBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - runEndBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - runEndVoluntaryContextSwitches
+      - LongLong
+      - 10364
+      - ''
+    - - runEndInvoluntaryContextSwitches
+      - LongLong
+      - 171
+      - ''
+- - calibrate:photoCal:match
+  - PropertySet
+  - !<lsst.daf.base.PropertyList> []
+- - calibrate:detection
+  - PropertySet
+  - !<lsst.daf.base.PropertyList>
+    - - runStartUtc
+      - String
+      - '2021-04-03T16:18:00.411682'
+      - ''
+    - - runStartCpuTime
+      - Double
+      - 5.873155127
+      - ''
+    - - runStartUserTime
+      - Double
+      - 4.902022
+      - ''
+    - - runStartSystemTime
+      - Double
+      - 0.9711449999999999
+      - ''
+    - - runStartMaxResidentSetSize
+      - LongLong
+      - 357412
+      - ''
+    - - runStartMinorPageFaults
+      - LongLong
+      - 123011
+      - ''
+    - - runStartMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - runStartBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - runStartBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - runStartVoluntaryContextSwitches
+      - LongLong
+      - 10364
+      - ''
+    - - runStartInvoluntaryContextSwitches
+      - LongLong
+      - 59
+      - ''
+    - - detectFootprintsStartUtc
+      - String
+      - '2021-04-03T16:18:00.411957'
+      - ''
+    - - detectFootprintsStartCpuTime
+      - Double
+      - 5.873430922
+      - ''
+    - - detectFootprintsStartUserTime
+      - Double
+      - 4.90225
+      - ''
+    - - detectFootprintsStartSystemTime
+      - Double
+      - 0.9711909999999999
+      - ''
+    - - detectFootprintsStartMaxResidentSetSize
+      - LongLong
+      - 357412
+      - ''
+    - - detectFootprintsStartMinorPageFaults
+      - LongLong
+      - 123032
+      - ''
+    - - detectFootprintsStartMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - detectFootprintsStartBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - detectFootprintsStartBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - detectFootprintsStartVoluntaryContextSwitches
+      - LongLong
+      - 10364
+      - ''
+    - - detectFootprintsStartInvoluntaryContextSwitches
+      - LongLong
+      - 59
+      - ''
+    - - doSmooth
+      - Bool
+      - true
+      - ''
+    - - sigma
+      - Double
+      - 2.0651489027357792
+      - ''
+    - - smoothingKernelWidth
+      - Int
+      - 15
+      - ''
+    - - nGrow
+      - Int
+      - 5
+      - ''
+    - - detectFootprintsEndUtc
+      - String
+      - '2021-04-03T16:18:02.276479'
+      - ''
+    - - detectFootprintsEndCpuTime
+      - Double
+      - 7.737793263
+      - ''
+    - - detectFootprintsEndUserTime
+      - Double
+      - 6.647494
+      - ''
+    - - detectFootprintsEndSystemTime
+      - Double
+      - 1.090329
+      - ''
+    - - detectFootprintsEndMaxResidentSetSize
+      - LongLong
+      - 556800
+      - ''
+    - - detectFootprintsEndMinorPageFaults
+      - LongLong
+      - 137548
+      - ''
+    - - detectFootprintsEndMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - detectFootprintsEndBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - detectFootprintsEndBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - detectFootprintsEndVoluntaryContextSwitches
+      - LongLong
+      - 10364
+      - ''
+    - - detectFootprintsEndInvoluntaryContextSwitches
+      - LongLong
+      - 64
+      - ''
+    - - runEndUtc
+      - String
+      - '2021-04-03T16:18:02.279906'
+      - ''
+    - - runEndCpuTime
+      - Double
+      - 7.741226476
+      - ''
+    - - runEndUserTime
+      - Double
+      - 6.649987
+      - ''
+    - - runEndSystemTime
+      - Double
+      - 1.091249
+      - ''
+    - - runEndMaxResidentSetSize
+      - LongLong
+      - 556800
+      - ''
+    - - runEndMinorPageFaults
+      - LongLong
+      - 138215
+      - ''
+    - - runEndMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - runEndBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - runEndBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - runEndVoluntaryContextSwitches
+      - LongLong
+      - 10364
+      - ''
+    - - runEndInvoluntaryContextSwitches
+      - LongLong
+      - 64
+      - ''
+- - calibrate:setPrimaryFlags
+  - PropertySet
+  - !<lsst.daf.base.PropertyList> []
+- - calibrate:catalogCalculation
+  - PropertySet
+  - !<lsst.daf.base.PropertyList>
+    - - runStartUtc
+      - String
+      - '2021-04-03T16:18:43.983325'
+      - ''
+    - - runStartCpuTime
+      - Double
+      - 49.439610791
+      - ''
+    - - runStartUserTime
+      - Double
+      - 48.218797
+      - ''
+    - - runStartSystemTime
+      - Double
+      - 1.22083
+      - ''
+    - - runStartMaxResidentSetSize
+      - LongLong
+      - 556800
+      - ''
+    - - runStartMinorPageFaults
+      - LongLong
+      - 210618
+      - ''
+    - - runStartMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - runStartBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - runStartBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - runStartVoluntaryContextSwitches
+      - LongLong
+      - 10364
+      - ''
+    - - runStartInvoluntaryContextSwitches
+      - LongLong
+      - 172
+      - ''
+    - - runEndUtc
+      - String
+      - '2021-04-03T16:18:44.068553'
+      - ''
+    - - runEndCpuTime
+      - Double
+      - 49.524835587
+      - ''
+    - - runEndUserTime
+      - Double
+      - 48.303042
+      - ''
+    - - runEndSystemTime
+      - Double
+      - 1.22181
+      - ''
+    - - runEndMaxResidentSetSize
+      - LongLong
+      - 556800
+      - ''
+    - - runEndMinorPageFaults
+      - LongLong
+      - 210669
+      - ''
+    - - runEndMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - runEndBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - runEndBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - runEndVoluntaryContextSwitches
+      - LongLong
+      - 10364
+      - ''
+    - - runEndInvoluntaryContextSwitches
+      - LongLong
+      - 172
+      - ''
+- - calibrate
+  - PropertySet
+  - !<lsst.daf.base.PropertyList>
+    - - runStartUtc
+      - String
+      - '2021-04-03T16:18:00.410434'
+      - ''
+    - - runStartCpuTime
+      - Double
+      - 5.871897358
+      - ''
+    - - runStartUserTime
+      - Double
+      - 4.901687
+      - ''
+    - - runStartSystemTime
+      - Double
+      - 0.9702719999999999
+      - ''
+    - - runStartMaxResidentSetSize
+      - LongLong
+      - 357380
+      - ''
+    - - runStartMinorPageFaults
+      - LongLong
+      - 122816
+      - ''
+    - - runStartMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - runStartBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - runStartBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - runStartVoluntaryContextSwitches
+      - LongLong
+      - 10364
+      - ''
+    - - runStartInvoluntaryContextSwitches
+      - LongLong
+      - 59
+      - ''
+    - - runEndUtc
+      - String
+      - '2021-04-03T16:18:47.614287'
+      - ''
+    - - runEndCpuTime
+      - Double
+      - 53.00781642
+      - ''
+    - - runEndUserTime
+      - Double
+      - 51.740113
+      - ''
+    - - runEndSystemTime
+      - Double
+      - 1.267713
+      - ''
+    - - runEndMaxResidentSetSize
+      - LongLong
+      - 556800
+      - ''
+    - - runEndMinorPageFaults
+      - LongLong
+      - 222984
+      - ''
+    - - runEndMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - runEndBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - runEndBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - runEndVoluntaryContextSwitches
+      - LongLong
+      - 10393
+      - ''
+    - - runEndInvoluntaryContextSwitches
+      - LongLong
+      - 1238
+      - ''
+- - calibrate:astrometry:matcher
+  - PropertySet
+  - !<lsst.daf.base.PropertyList>
+    - - matchObjectsToSourcesStartUtc
+      - String
+      - - '2021-04-03T16:18:44.931298'
+        - '2021-04-03T16:18:46.586133'
+        - '2021-04-03T16:18:46.834422'
+      - ''
+    - - matchObjectsToSourcesStartCpuTime
+      - Double
+      - - 50.356091612
+        - 51.988774491
+        - 52.235190052
+      - ''
+    - - matchObjectsToSourcesStartUserTime
+      - Double
+      - - 49.126267
+        - 50.731428
+        - 50.977441
+      - ''
+    - - matchObjectsToSourcesStartSystemTime
+      - Double
+      - - 1.229832
+        - 1.257352
+        - 1.257756
+      - ''
+    - - matchObjectsToSourcesStartMaxResidentSetSize
+      - LongLong
+      - - 556800
+        - 556800
+        - 556800
+      - ''
+    - - matchObjectsToSourcesStartMinorPageFaults
+      - LongLong
+      - - 213766
+        - 220117
+        - 220153
+      - ''
+    - - matchObjectsToSourcesStartMajorPageFaults
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - matchObjectsToSourcesStartBlockInputs
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - matchObjectsToSourcesStartBlockOutputs
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - matchObjectsToSourcesStartVoluntaryContextSwitches
+      - LongLong
+      - - 10378
+        - 10378
+        - 10379
+      - ''
+    - - matchObjectsToSourcesStartInvoluntaryContextSwitches
+      - LongLong
+      - - 466
+        - 1139
+        - 1141
+      - ''
+    - - _doMatchStartUtc
+      - String
+      - - '2021-04-03T16:18:44.931504'
+        - '2021-04-03T16:18:46.586284'
+        - '2021-04-03T16:18:46.834590'
+      - ''
+    - - _doMatchStartCpuTime
+      - Double
+      - - 50.356297229
+        - 51.988926327
+        - 52.235358068
+      - ''
+    - - _doMatchStartUserTime
+      - Double
+      - - 49.126467
+        - 50.731428
+        - 50.977609
+      - ''
+    - - _doMatchStartSystemTime
+      - Double
+      - - 1.229837
+        - 1.257504
+        - 1.257756
+      - ''
+    - - _doMatchStartMaxResidentSetSize
+      - LongLong
+      - - 556800
+        - 556800
+        - 556800
+      - ''
+    - - _doMatchStartMinorPageFaults
+      - LongLong
+      - - 213791
+        - 220120
+        - 220153
+      - ''
+    - - _doMatchStartMajorPageFaults
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - _doMatchStartBlockInputs
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - _doMatchStartBlockOutputs
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - _doMatchStartVoluntaryContextSwitches
+      - LongLong
+      - - 10378
+        - 10378
+        - 10379
+      - ''
+    - - _doMatchStartInvoluntaryContextSwitches
+      - LongLong
+      - - 466
+        - 1139
+        - 1141
+      - ''
+    - - _doMatchEndUtc
+      - String
+      - - '2021-04-03T16:18:46.399737'
+        - '2021-04-03T16:18:46.642109'
+        - '2021-04-03T16:18:46.896482'
+      - ''
+    - - _doMatchEndCpuTime
+      - Double
+      - - 51.802503179
+        - 52.04472904
+        - 52.297244024
+      - ''
+    - - _doMatchEndUserTime
+      - Double
+      - - 50.548791
+        - 50.787003
+        - 51.039503
+      - ''
+    - - _doMatchEndSystemTime
+      - Double
+      - - 1.253738
+        - 1.257743
+        - 1.257756
+      - ''
+    - - _doMatchEndMaxResidentSetSize
+      - LongLong
+      - - 556800
+        - 556800
+        - 556800
+      - ''
+    - - _doMatchEndMinorPageFaults
+      - LongLong
+      - - 219493
+        - 220136
+        - 220156
+      - ''
+    - - _doMatchEndMajorPageFaults
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - _doMatchEndBlockInputs
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - _doMatchEndBlockOutputs
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - _doMatchEndVoluntaryContextSwitches
+      - LongLong
+      - - 10378
+        - 10378
+        - 10379
+      - ''
+    - - _doMatchEndInvoluntaryContextSwitches
+      - LongLong
+      - - 1115
+        - 1140
+        - 1141
+      - ''
+    - - matchObjectsToSourcesEndUtc
+      - String
+      - - '2021-04-03T16:18:46.400260'
+        - '2021-04-03T16:18:46.644326'
+        - '2021-04-03T16:18:46.896816'
+      - ''
+    - - matchObjectsToSourcesEndCpuTime
+      - Double
+      - - 51.803033156
+        - 52.045114492
+        - 52.297581278
+      - ''
+    - - matchObjectsToSourcesEndUserTime
+      - Double
+      - - 50.54929
+        - 50.787373
+        - 51.039834
+      - ''
+    - - matchObjectsToSourcesEndSystemTime
+      - Double
+      - - 1.253751
+        - 1.257752
+        - 1.257756
+      - ''
+    - - matchObjectsToSourcesEndMaxResidentSetSize
+      - LongLong
+      - - 556800
+        - 556800
+        - 556800
+      - ''
+    - - matchObjectsToSourcesEndMinorPageFaults
+      - LongLong
+      - - 219636
+        - 220136
+        - 220156
+      - ''
+    - - matchObjectsToSourcesEndMajorPageFaults
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - matchObjectsToSourcesEndBlockInputs
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - matchObjectsToSourcesEndBlockOutputs
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - matchObjectsToSourcesEndVoluntaryContextSwitches
+      - LongLong
+      - - 10378
+        - 10379
+        - 10379
+      - ''
+    - - matchObjectsToSourcesEndInvoluntaryContextSwitches
+      - LongLong
+      - - 1115
+        - 1140
+        - 1141
+      - ''
+- - calibrate:astrometry
+  - PropertySet
+  - !<lsst.daf.base.PropertyList>
+    - - runStartUtc
+      - String
+      - '2021-04-03T16:18:44.091623'
+      - ''
+    - - runStartCpuTime
+      - Double
+      - 49.547904004
+      - ''
+    - - runStartUserTime
+      - Double
+      - 48.326109
+      - ''
+    - - runStartSystemTime
+      - Double
+      - 1.221811
+      - ''
+    - - runStartMaxResidentSetSize
+      - LongLong
+      - 556800
+      - ''
+    - - runStartMinorPageFaults
+      - LongLong
+      - 210849
+      - ''
+    - - runStartMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - runStartBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - runStartBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - runStartVoluntaryContextSwitches
+      - LongLong
+      - 10364
+      - ''
+    - - runStartInvoluntaryContextSwitches
+      - LongLong
+      - 172
+      - ''
+    - - solveStartUtc
+      - String
+      - '2021-04-03T16:18:44.091884'
+      - ''
+    - - solveStartCpuTime
+      - Double
+      - 49.548166527
+      - ''
+    - - solveStartUserTime
+      - Double
+      - 48.326356
+      - ''
+    - - solveStartSystemTime
+      - Double
+      - 1.221818
+      - ''
+    - - solveStartMaxResidentSetSize
+      - LongLong
+      - 556800
+      - ''
+    - - solveStartMinorPageFaults
+      - LongLong
+      - 210872
+      - ''
+    - - solveStartMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - solveStartBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - solveStartBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - solveStartVoluntaryContextSwitches
+      - LongLong
+      - 10364
+      - ''
+    - - solveStartInvoluntaryContextSwitches
+      - LongLong
+      - 172
+      - ''
+    - - _matchAndFitWcsStartUtc
+      - String
+      - - '2021-04-03T16:18:44.931091'
+        - '2021-04-03T16:18:46.585970'
+        - '2021-04-03T16:18:46.834264'
+      - ''
+    - - _matchAndFitWcsStartCpuTime
+      - Double
+      - - 50.355880111
+        - 51.988611777
+        - 52.235031077
+      - ''
+    - - _matchAndFitWcsStartUserTime
+      - Double
+      - - 49.126069
+        - 50.731428
+        - 50.977284
+      - ''
+    - - _matchAndFitWcsStartSystemTime
+      - Double
+      - - 1.229827
+        - 1.257191
+        - 1.257756
+      - ''
+    - - _matchAndFitWcsStartMaxResidentSetSize
+      - LongLong
+      - - 556800
+        - 556800
+        - 556800
+      - ''
+    - - _matchAndFitWcsStartMinorPageFaults
+      - LongLong
+      - - 213756
+        - 220112
+        - 220153
+      - ''
+    - - _matchAndFitWcsStartMajorPageFaults
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - _matchAndFitWcsStartBlockInputs
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - _matchAndFitWcsStartBlockOutputs
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - _matchAndFitWcsStartVoluntaryContextSwitches
+      - LongLong
+      - - 10378
+        - 10378
+        - 10379
+      - ''
+    - - _matchAndFitWcsStartInvoluntaryContextSwitches
+      - LongLong
+      - - 466
+        - 1139
+        - 1141
+      - ''
+    - - _matchAndFitWcsEndUtc
+      - String
+      - - '2021-04-03T16:18:46.585533'
+        - '2021-04-03T16:18:46.833772'
+        - '2021-04-03T16:18:47.086237'
+      - ''
+    - - _matchAndFitWcsEndCpuTime
+      - Double
+      - - 51.988174513
+        - 52.234539584
+        - 52.486956772
+      - ''
+    - - _matchAndFitWcsEndUserTime
+      - Double
+      - - 50.731428
+        - 50.976791
+        - 51.229209
+      - ''
+    - - _matchAndFitWcsEndSystemTime
+      - Double
+      - - 1.256753
+        - 1.257756
+        - 1.257756
+      - ''
+    - - _matchAndFitWcsEndMaxResidentSetSize
+      - LongLong
+      - - 556800
+        - 556800
+        - 556800
+      - ''
+    - - _matchAndFitWcsEndMinorPageFaults
+      - LongLong
+      - - 220062
+        - 220153
+        - 220161
+      - ''
+    - - _matchAndFitWcsEndMajorPageFaults
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - _matchAndFitWcsEndBlockInputs
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - _matchAndFitWcsEndBlockOutputs
+      - LongLong
+      - - 0
+        - 0
+        - 0
+      - ''
+    - - _matchAndFitWcsEndVoluntaryContextSwitches
+      - LongLong
+      - - 10378
+        - 10379
+        - 10379
+      - ''
+    - - _matchAndFitWcsEndInvoluntaryContextSwitches
+      - LongLong
+      - - 1139
+        - 1141
+        - 1142
+      - ''
+    - - solveEndUtc
+      - String
+      - '2021-04-03T16:18:47.089763'
+      - ''
+    - - solveEndCpuTime
+      - Double
+      - 52.49048261
+      - ''
+    - - solveEndUserTime
+      - Double
+      - 51.230761
+      - ''
+    - - solveEndSystemTime
+      - Double
+      - 1.259731
+      - ''
+    - - solveEndMaxResidentSetSize
+      - LongLong
+      - 556800
+      - ''
+    - - solveEndMinorPageFaults
+      - LongLong
+      - 220207
+      - ''
+    - - solveEndMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - solveEndBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - solveEndBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - solveEndVoluntaryContextSwitches
+      - LongLong
+      - 10379
+      - ''
+    - - solveEndInvoluntaryContextSwitches
+      - LongLong
+      - 1142
+      - ''
+    - - runEndUtc
+      - String
+      - '2021-04-03T16:18:47.089948'
+      - ''
+    - - runEndCpuTime
+      - Double
+      - 52.490667729
+      - ''
+    - - runEndUserTime
+      - Double
+      - 51.230939
+      - ''
+    - - runEndSystemTime
+      - Double
+      - 1.259736
+      - ''
+    - - runEndMaxResidentSetSize
+      - LongLong
+      - 556800
+      - ''
+    - - runEndMinorPageFaults
+      - LongLong
+      - 220209
+      - ''
+    - - runEndMajorPageFaults
+      - LongLong
+      - 0
+      - ''
+    - - runEndBlockInputs
+      - LongLong
+      - 0
+      - ''
+    - - runEndBlockOutputs
+      - LongLong
+      - 0
+      - ''
+    - - runEndVoluntaryContextSwitches
+      - LongLong
+      - 10379
+      - ''
+    - - runEndInvoluntaryContextSwitches
+      - LongLong
+      - 1142
+      - ''
