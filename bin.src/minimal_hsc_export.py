@@ -21,6 +21,8 @@ def runner(nodes, exports, visited=None):
         visited.add(node)
         if before:
             runner(before, exports, visited)
+
+
 runner([node for node in qgraph.getNodesForTask(qgraph.findTaskDefByLabel('calibrate'))], exports)
 resolved_refs = [butler.registry.findDataset(datasetType=ex.datasetType, dataId=ex.dataId,
                  collections=butler.registry.queryCollections()) for ex in exports]
